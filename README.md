@@ -1,5 +1,5 @@
-# Who Ate My Bacon?
-A demo project analyzing factors related to the decrease in bacon sales cost margin for Sysco, one of the most famous food distribution company.
+# Bacon Margin Analysis
+This is a demo project analyzing factors related to the decrease in bacon sales cost margin for Sysco, one of the most famous food distribution company.
 
 ## Project Background
 
@@ -12,7 +12,7 @@ With the following analysis, we will dive into the problem with four sections: a
 ## Executive Summary
 From 2014 to 2015, there're three quarters of performance worth our attention--Q3 2014, Q4 2014, and Q1 2015. There's continuously increasing sales cost, and increase in sales and sales cost margin in the first two quarters of the three. However, in Q1 2015, the sales cost margin has declined by 61% ($557743) in total.
 ![alt text](tbls&viz/Overview.png)
-Factors contributing to the issue include: margin per pound for roughly a quarter of the national brand products has shinked, leading to 22% decline in margin per pound from 2014 to 2015; possible shift in customer preference from high margin products to lower margin products; finally, inappropriate balance between volume growth and profit margin determined by sales representatives. Further cost managment, more strategic pricing system, and more considerate sales incentive grid will be helpful for solving the existing problem. 
+Factors contributing to the issue include: margin per pound for roughly a quarter of the national brand products has shrinked, leading to on average 22% decline in margin per pound from 2014 to 2015; possible shift in customer preference from high margin products to lower margin products; finally, inappropriate balance between volume growth and profit margin determined by sales representatives. Further cost managment, more strategic pricing system, and more considerate sales incentive grid will be helpful for solving the existing problem. 
 
 ## Insights Deep-Dive
 ### Cost & Pricing
@@ -52,7 +52,19 @@ Factors contributing to the issue include: margin per pound for roughly a quarte
 - As shown in the table above, private label products indeed experienced significcant decline in volume (with pound sold, number of transactions, number of customers, and cases sold), whereas national brand products only had some single digit changes.
 
 ## Recommendations
+**Sales Incentive**
+- To maintain the sales cost margin, we should recover the sales volume of private label products. Therefore, I proprose to take product label into consideration while defining sales incentive. 
+- Also thinking from sales person point of view, although private label products contain larger margin, more efforts would needed to persuade customers make the purchase of products with less popularity. In other words, while national brand products' margin fluctuates a lot, the purchase volume may conpensate for decreased margin. Therefore, there are few changes to the volume of national brand products. 
+- In conclusion, to better boost the private tier sales, a strategy is to encourage sales person with higher incentive for private label products.
 
+![alt text](tbls&viz/Overview_viz.png)
+**Cost Management**
+- Throughout the 8 quarters' metrics, changes in cost has been one of the leading factor contributing to the decline of margin. Without further data, we are not able to decide which side of cost, either supplier or logistics cost, influence the most. 
+- In general, we could work on better sourcing and negotiation with suppliers for a better price. On ther other hand, logistics cost could be optimized through more efficient strategy of operations.
+
+**Pricing Strategy**
+- With regards to the increase in cost but decrease in price within a quarter of the national products from 2014 to 2015, more strategic pricing strategies should be applied according to the fluctuation in costs and volume changes. For example, we can conduct customer sensitivity analysis and based on the anticipation of customer behavior to decide pricing. 
+- Moreover, to better balance between volume growth and margin retention, unnecessary discounting should be avoided based on customer's purchasing behavior. As mentioned before, with comprehensive understanding of customer sensitivity, we can better maximize profitability through optimizing price and sales volume.
 
 
 
